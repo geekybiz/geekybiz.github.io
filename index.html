@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="personalSite">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nathan Allen</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"> -->
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <!-- <nav class="navbar navbar-inverse">
+        <div class="container-fluid"> -->
+      <!-- </div> -->
+      <nav class="navigation">
+        <ul>
+          <li><a href="#/">Home</a></li>
+          <li><a href="#/about">About</a></li>
+          <li><a href="#/portfolio">Portfolio</a></li>
+          <!-- <li><a href="#/contact">Contact</a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <ng-view></ng-view>
+
+    <footer>
+      <a href="mailto:nlallenster@gmail.com">
+        <i class="fa fa-envelope fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/nathanallen1">
+        <i class="fa fa-linkedin-square fa-2x"></i>
+      </a>
+      <a href="http://twitter.com/nlallenster">
+        <i class="fa fa-twitter fa-2x"></i>
+      </a>
+      <a href="https://github.com/geekybiz">
+        <i class="fa fa-github-alt fa-2x"></i>
+      </a>
+    </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/weatherService.js"></script>
+    <script src="app/controller.js"></script>
+    <script src="views/about/aboutCtrl.js"></script>
+    <script src="views/contact/contactCtrl.js"></script>
+    <script src="views/home/homeCtrl.js"></script>
+    <script src="views/portfolio/portfolioCtrl.js"></script>
+    <script src="app/timeDirective.js"></script>
+    <script src="app/dataService.js"></script>
+
+</body>
+
+</html>

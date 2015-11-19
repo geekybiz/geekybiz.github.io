@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Stalemate|Open+Sans:300|Roboto:300);
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+/*************************
+Navigation
+**************************/
+
+.navigation {
+  position: relative;
+}
+
+nav {
+  text-align: center;
+  padding: 15px 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+}
+
+nav a {
+  padding: 15px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/*************************
+Footer
+**************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 100px;
+	color: black;
+}
+
+i {
+  color: black;
+  padding-right: 30px;
+  text-align: center;
+}
+
+
+/*************************
+Home Page
+**************************/
+
+#wrapper {
+  /*background-color: black;*/
+  height: 100%;
+  /*background-color: #fafafa;*/
+}
+
+.temperature p {
+  color: white;
+  text-align: right;
+  margin-top: -2.7%;
+  margin-right: 3%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+}
+
+h1 {
+  font-family: Stalemate, sans-serif;
+  font-weight: 600;
+  font-size: 8em;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.time {
+  color: white;
+  text-align: center;
+  height: 100%;
+}
+
+/*.quotes p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.author p {
+  text-align: center;
+  font-family: cursive;
+  color: white;
+}*/
+
+.time p {
+  font-family: 'Open+Sans', sans-serif;
+  font-size: 2em;
+  color: black;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-around;
+  max-width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.skills {
+  /*width: 25%;*/
+  /*margin-bottom: 40px;*/
+}
+
+.skills > img {
+  height: 75px;
+  width: 75px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*************************
+About Page
+**************************/
+
+h3 {
+  font-family: Roboto;
+}
+
+p {
+  font-family: Roboto;
+}
+
+.aboutContainer {
+  padding: 10%;
+  text-align: justify;
+}
+
+.intro {
+  text-align: center;
+}
+
+.interests {
+  text-align: center;
+}
+
+/*************************
+Portfolio Page
+**************************/
+
+#projects {
+  display: flex;
+  justify-content: space-around;
+  max-width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.project1 {
+  width: 100%;
+}
+
+.project1 h3 {
+  text-align: center;
+}
+
+.glass {
+  display: flex;
+  justify-content: center;
+}
+
+.project1 p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.q {
+  display: flex;
+  justify-content: center;
+}
+
+.project2 {
+  width: 100%;
+}
+
+.project2 h3 {
+  text-align: center;
+}
+
+.project2 p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
