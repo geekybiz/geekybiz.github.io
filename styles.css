@@ -162,12 +162,10 @@ p {
 /*************************
 Portfolio Page
 **************************/
-<<<<<<< HEAD
+
 h4 {
   font-family: Roboto;
 }
-=======
->>>>>>> c2e217827b4ae790de989629fd957635928d23e3
 
 #projects {
   display: flex;
@@ -181,11 +179,7 @@ h4 {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .project1 h4 {
-=======
-.project1 h3 {
->>>>>>> c2e217827b4ae790de989629fd957635928d23e3
   text-align: center;
 }
 
@@ -209,11 +203,7 @@ h4 {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .project2 h4 {
-=======
-.project2 h3 {
->>>>>>> c2e217827b4ae790de989629fd957635928d23e3
   text-align: center;
 }
 
