@@ -3,13 +3,16 @@
 
 html, body {
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  font-family: Roboto;
+  background-color: #fff;
 }
 
-.wrapper {
-  height: 100%;
+h1, h2, h3, h4, h5, h6, p, a {
+  color: #384047;
 }
+
 
 /*************************
 Navigation
@@ -32,7 +35,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 1.25em;
 }
 
@@ -51,11 +54,12 @@ footer {
 	text-align: center;
 	clear: both;
 	padding-top: 100px;
-	color: black;
+	color: #191919;
+  padding-bottom: 1em;
 }
 
 i {
-  color: black;
+  color: #191919;
   padding-right: 30px;
   text-align: center;
 }
@@ -64,19 +68,11 @@ i {
 /*************************
 Home Page
 **************************/
-
-#wrapper {
-  /*background-color: black;*/
-  height: 100%;
-  /*background-color: #fafafa;*/
-}
-
 .temperature p {
   color: white;
   text-align: right;
   margin-top: -2.7%;
   margin-right: 3%;
-  font-family: 'Roboto', sans-serif;
   font-size: 1.1em;
 }
 
@@ -88,6 +84,7 @@ h1 {
   color: black;
   margin: 0;
   padding-top: 20px;
+  color: #191919;
 }
 
 .time {
@@ -122,10 +119,6 @@ h1 {
   flex-wrap: wrap;
 }
 
-.skills {
-  /*width: 25%;*/
-  /*margin-bottom: 40px;*/
-}
 
 .skills > img {
   height: 75px;
@@ -137,78 +130,49 @@ h1 {
 /*************************
 About Page
 **************************/
-
-h3 {
-  font-family: Roboto;
-}
-
-p {
-  font-family: Roboto;
-}
-
 .aboutContainer {
-  padding: 10%;
-  text-align: justify;
+  max-width: 43.750em;
+  margin: 5em auto  ;
 }
-
 .intro {
   text-align: center;
 }
-
-.interests {
-  text-align: center;
+.aboutMe > p {
+  text-align: left;
 }
 
 /*************************
 Portfolio Page
 **************************/
-
-p, li {
-  display: flex;
-  justify-content: center;
+#projects  {
+  max-width: 43.750em;
+  margin: 0 auto;
   text-align: center;
-  font-family: Roboto;
+}
+
+#projects img {
+  border: .5px solid #f4f7f8;
 }
 
 h4 {
   font-family: Roboto;
   font-weight: bold;
+  padding-top: 2em;
+  font-size: 1.125em;
 }
 
-.technology {
+.lead {
+  margin-top: 0;
+  margin-bottom: 1.330em;
+}
+
+.aboutProject {
+  text-align: left;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+
+.technologies {
   text-decoration: underline;
-}
-
-#projects {
-  display: flex;
-  justify-content: space-around;
-  max-width: 80%;
-  margin: 0 auto;
-  flex-wrap: wrap;
-}
-
-.project1 {
-  width: 100%;
-}
-
-.project1 h4 {
-  text-align: center;
-}
-
-.glass {
-  display: flex;
-  justify-content: center;
-}
-
-.q {
-  display: flex;
-  justify-content: center;
-}
-
-.project2 {
-  width: 100%;
-}
-
-.project2 h4 {
-  text-align: center;
+  margin-top: 0;
 }
